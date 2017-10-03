@@ -24,3 +24,7 @@ setBlockHash block = block {blockHash = calculateBlockHash block}
 setNonceAndHash :: Block -> Block
 setNonceAndHash block = setBlockHash $ block {nonce = findNonce block}
 ```
+
+Basic Category Theory book:
+
+https://arxiv.org/pdf/1612.09375.pdf
